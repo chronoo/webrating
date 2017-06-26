@@ -1,0 +1,56 @@
+html, body{
+	height:100%;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #444;
+	font-family: 'verdana';
+}
+#parent{
+	position:relative;
+	width: 100%;
+  height:100%;
+  min-height:100%;
+}
+#content{	
+
+	margin: 0px auto ;
+	padding: 20px;
+	width: 900px;	
+	background-color: white;
+}
+#header{
+	height: 100px;
+	background-color: #EEE;
+	text-align: right;
+}
+#header a{
+	padding: 8px;
+	display: inline-block;
+}
+#control span:hover, #date_select span:hover{
+	color: blue;
+}
+.stripe{
+	height: 2px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: black;	
+}
+.button{
+	display: inline-block;
+	margin:10px;
+	padding: 5px;
+	border: 2px solid #AAA;
+}
+#counter_cod{
+	border: 2px solid #AAA;
+	padding: 5px;
+	background-color: #CCC;
+}
+#reg_block *
+{
+	margin: 5px;
+}
+#work_field .item{
+	margin: 5px;
+}
